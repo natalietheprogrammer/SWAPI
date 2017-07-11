@@ -1,0 +1,330 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+h1 {
+  color: #edede9;
+  font-family: "starWarsFont", sans-serif;
+  font-size: calc(100px - (836px - 100vw)*.11);
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 1.1px;
+  padding-top: 35px;
+  margin: 0; }
+
+p.headerSection {
+  color: #edede9;
+  font-family: "starWarsFont", sans-serif;
+  font-size: calc(65px - (836px - 100vw)*.11);
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5px;
+  margin: 0; }
+
+button.category {
+  color: #edede9;
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center; }
+
+p {
+  color: #edede9;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center; }
+
+footer p {
+  color: #edede9;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 10px 30px 10px; }
+
+.outter-wrapper {
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  background-color: orange; }
+
+header {
+  background-color: #020309;
+  background-image: url(/public/images/heroImg_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px; }
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
+
+button.category {
+  margin-left: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  border: none;
+  background-color: #232323;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  transition: all 1s ease;
+  color: white;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
+  button.category:before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(35, 35, 35, 0.3); }
+  button.category:hover {
+    transform: scale(1.05);
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
+    button.category:hover:before {
+      background-color: rgba(35, 35, 35, 0.15); }
+
+button.currentButton {
+  transform: scale(1.05);
+  color: white;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); }
+  button.currentButton:before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(35, 35, 35, 0.15); }
+
+.buttonOverlay {
+  width: calc(33% - 20px / 3);
+  height: calc(25vw - 15px);
+  overflow: hidden; }
+
+button.category:first-child {
+  margin-left: 0px; }
+
+#people {
+  background-image: url(/public/images/people_1.jpg); }
+
+#planets {
+  background-image: url(/public/images/planets.png); }
+
+#starships {
+  background-image: url(/public/images/starShips_1.jpg); }
+
+form {
+  margin: 50px auto;
+  text-align: center;
+  height: 30px; }
+  form input {
+    height: 100%; }
+
+input.userInput {
+  width: 70%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px; }
+
+input.submit {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  text-transform: uppercase; }
+
+/* Normal laptop */
+@media (max-width: 1280px) {
+  h2 {
+    padding-top: 40px;
+    padding-bottom: 15px; } }
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+  aside {
+    width: 100%;
+    right: -100%; } }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  section {
+    line-height: calc(1.51em - (835px - 100vw)*.01); } }
+
+/* Landscape phones and down */
+/* Landscape phones and down - extra break */
+@media (max-width: 460px) {
+  h2 {
+    font-size: 39px; }
+  h3 {
+    font-size: 30px;
+    padding-bottom: 15px; }
+  section {
+    font-size: 20px;
+    line-height: calc(1.59em - (835px - 100vw)*.01); } }
+
+/* iPhone 5 and down */
+@media (max-width: 320px) {
+  h2 {
+    padding-top: 40px;
+    padding-bottom: 15px; }
+  form {
+    margin-bottom: 30px; }
+  footer p {
+    padding-bottom: 23px; } }
