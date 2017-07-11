@@ -112,7 +112,7 @@ export default class LoginPage extends React.Component {
 
                 return <div className={styles.searchLine} key={i} onClick={()=>this.showDetails(category, id)}>
                   <p>{v.name}</p>
-                  <p>→</p>
+                  <p>{`>`}</p>
                 </div>
               })}
             </div>

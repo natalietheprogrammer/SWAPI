@@ -356,6 +356,10 @@ input.submit {
   margin: 0;
 }
 
+.searchLine p:last-child {
+  margin-left: 14px;
+}
+
 .detailsRow {
   display: flex;
 }
